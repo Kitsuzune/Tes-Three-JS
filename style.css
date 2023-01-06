@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navi {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 4rem 8rem;
+  z-index: 2;
+}
+
+.navi a {
+  text-decoration: none;
+  color: azure;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navi ul {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+}
+
+.title {
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  color: azure;
+}
